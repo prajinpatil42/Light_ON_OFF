@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light_ON/OFF</title>
+    <script src="script.js" defer></script>
+
+  </head>
+  <body style="background-color: cadetblue;">
+    <div align=center>
+    <h1>JavaScript can Change Html attribute values</h1>
+    <h1>
+      Int this Case javascript changes the value of src(source) attribute of an
+      image
+    </h1>
+    <img
+      src="Images/pic_bulboff.gif"
+      class="center"
+      id="myimage"
+      alt="off"
+      style="width: 200px"
+    />
+    <br />
+    <button id="on" onclick="document.getElementById('myimage').src='Images/pic_bulbon.gif'">Turn on the light</button>
+
+
+
+    <button id="off" onclick="document.getElementById('myimage').src='Images/pic_bulboff.gif'" >Turn off the light</button>
+</div>
+  </body>
+</html>
