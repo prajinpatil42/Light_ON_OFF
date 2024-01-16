@@ -10,5 +10,5 @@
 
 
 
-![logo](https://github.com/prajinpatil42/Dark_Light/blob/main/Images/1.png)
+![logo](https://github.com/prajinpatil42/Light_ON_OFF/blob/main/screen-shots/1.png)
 
